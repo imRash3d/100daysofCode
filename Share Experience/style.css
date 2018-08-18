@@ -1,0 +1,227 @@
+body {
+   
+}
+img {
+    width: 100%;
+}
+h1 {
+    color: #2B2B2B;
+    font-family: Raleway;
+    font-weight: 500 !important;
+    font-style: inherit;
+    font-size: 30px;
+    text-transform: inherit;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center
+}
+p {
+    font-family: 'Muli', sans-serif;
+    color: #777777;
+    font-family: Muli;
+    font-weight: 300 !important;
+    font-style: inherit;
+    font-size: 13px;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+.container {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+.mainpost h1 {
+
+}
+
+.logo {
+    
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    /* justify-content: center; */
+    width: 100%;
+    color: #2B2B2B; 
+}
+
+.subtitle {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+header {
+    background: #ffffff;
+    overflow: hidden;
+    padding: 60px 0 0 0;
+    border-bottom: 1px solid #eeeeee;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu { 
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    box-shadow: 0 3px 5px rgba(0,0,0,.05);
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 36px;
+    padding: 10px 0;
+}
+.menu ul  li {   
+    display: flex; 
+    list-style: none;
+    float: left;}
+.menu ul  li a{
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 15px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .8px;
+}
+
+.home-img {
+background: #f8f8f8;
+padding: 40px 0;
+display: flex;
+  justify-content: center;
+  align-items: center  
+}
+.home-img img {
+    width: 1170px;
+}
+
+.post {
+    margin-top: 20px;
+    flex: 2;
+    box-sizing: border-box;
+    margin-right: 35px;
+}
+.sidebar {
+    flex:1;
+    margin-top: 20px;
+}
+
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time span {
+    margin: 0 10px;
+    font-family: 'Muli', sans-serif;
+    color: #777777;
+    font-weight: 300 !important;
+    font-style: inherit;
+    font-size: 13px;
+    text-transform: inherit;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.read_more {
+    font-family: Raleway;
+      display: inline-block;
+      font-size: 13px;
+      border-radius: 4px;
+      text-align: center;
+      transition: all .5s;
+      text-transform: capitalize;
+      border: none;
+      cursor: pointer;
+      letter-spacing: .2px;
+      background: 0 0;
+      transition-duration: .5s;
+      margin-right: 10px;
+      border-radius: 50px;
+      background-color: #efa48d;
+      color: #fff!important;
+      padding: 13px 20px;
+      margin-bottom: 30px;
+    }
+
+    .all_post {
+        width: 100%;
+    }
+    .twinblock {
+        text-align: center;
+        width: 50%;
+        float: left;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .twinblock h2 {
+        color: #2B2B2B;
+        font-family: Raleway;
+        font-weight: 500 !important;
+        font-style: inherit;
+        font-size: 19px;
+        text-transform: inherit;
+        letter-spacing: 1px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+
+    .widget {
+        background-color: #ffffff;
+        position: relative;
+        margin-bottom: 40px;
+        padding: 0;
+        border: 1px solid #eeeeee;
+        text-align: center;
+    
+    }
+     .widget h2 {
+        background-color: #ffffff;
+        color: #000000;
+        display: inline-block;
+        line-height: 1;
+        position: relative;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 auto 10px;
+        letter-spacing: 1px;
+        z-index: 1;
+        top: -14px;
+        padding: 0 20px;
+     }   
+
+
+      .widget-content {
+        padding: 23px;
+      }
+
+      .social ul   {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .social ul  li  {
+          list-style: none;
+      }
+      .social ul  li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0 2px;
+        color: #aaa;
+        border: 1px solid #eee;
+        border-radius: 50%;
+      }
